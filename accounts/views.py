@@ -110,6 +110,7 @@ def CalendlyAPI():
                 invitees = data['collection']
                 return invitees
             else:
+                
                 print("No invitees found in the response.")
         else:
             print("Failed to retrieve invitees. Status code:", response.status_code)
